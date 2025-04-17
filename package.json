@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Slimo Group Inc. official website",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
-    "build": "echo 'No build step required - static HTML site'"
-  }
+    "build": "echo 'Static HTML site - no build needed'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 } 

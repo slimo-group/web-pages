@@ -1,11 +1,22 @@
+# Cloudflare Pages configuration
+name = "slimogroup"
+compatibility_date = "2023-10-30"
+
+# Pages build configuration
+[build]
+command = ""
+[build.upload]
+format = "directory"
+
+# Static site configuration
 [site]
 bucket = "."
 
-[build]
-command = ""
-# No build command needed for static HTML
-output_dir = "."
+# Pages specific configuration
+[pages]
+pages_build_output_dir = "."
 
+# Environment specific settings
 [env.production]
 name = "slimogroup-prod"
 

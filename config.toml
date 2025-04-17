@@ -1,0 +1,10 @@
+[build]
+command = ""
+upload.format = "directory" 
+output_directory = "."
+
+[site]
+bucket = "."
+
+[build.environment]
+NODE_VERSION = "18" 
