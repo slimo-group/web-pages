@@ -1,0 +1,13 @@
+[site]
+bucket = "."
+
+[build]
+command = ""
+# No build command needed for static HTML
+output_dir = "."
+
+[env.production]
+name = "slimogroup-prod"
+
+[env.preview]
+name = "slimogroup-preview" 
