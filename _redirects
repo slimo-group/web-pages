@@ -2,5 +2,4 @@
 /home / 301
 /index.html / 301
 
-# SPA fallback - only for paths that don't match existing files
-/* /index.html 200! 
+# Note: We're relying on _routes.json for SPA handling instead of this rule 
