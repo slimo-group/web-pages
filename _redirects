@@ -1,8 +1,6 @@
-# Redirect domain aliases to primary domain
-https://www.slimogroup.com/* https://slimogroup.com/:splat 301!
+# Basic redirects
+/home / 301
+/index.html / 301
 
-# Optional: Redirect default Cloudflare Pages subdomain to primary domain
-https://slimogroup.pages.dev/* https://slimogroup.com/:splat 301!
-
-# Handle 404s
-/* /index.html 404 
+# SPA fallback
+/* /index.html 200 
